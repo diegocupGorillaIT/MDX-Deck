@@ -1,0 +1,14 @@
+{
+  "name": "demo-mdx-deck",
+  "version": "1.0.0",
+  "description": "Demo MDX Deck",
+  "main": "index.js",
+  "scripts": {
+	"start": "mdx-deck deck.mdx"
+  },
+  "author": "diégo",
+  "license": "ISC",
+  "devDependencies": {
+    "mdx-deck": "^3.0.13"
+  }
+}
