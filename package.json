@@ -4,13 +4,21 @@
   "description": "Demo MDX Deck",
   "main": "index.js",
   "scripts": {
-	"start": "mdx-deck deck.mdx",
-	"build": "mdx-deck build deck.mdx",
-	"test": "echo \"Error: no test specified\" && exit 1"
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "diégo",
   "license": "ISC",
   "devDependencies": {
     "mdx-deck": "^3.0.13"
+  },
+  "dependencies": {
+    "@gitgraph/js": "^1.3.3",
+    "@gitgraph/react": "^1.5.2",
+    "bufferutil": "^4.0.1",
+    "react-helmet": "^5.2.1",
+    "typescript": "^3.7.4",
+    "utf-8-validate": "^5.0.2"
   }
 }
