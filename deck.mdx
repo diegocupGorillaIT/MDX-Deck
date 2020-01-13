@@ -2,7 +2,7 @@ import { themes } from 'mdx-deck'
 import { Invert } from 'mdx-deck'
 import { Image } from 'mdx-deck'
 
-export const theme = themes.dark
+export const theme = themes.comic
 
 # SLIDE 1 - LIST
 
@@ -37,16 +37,20 @@ export const theme = themes.dark
 
 ---
 
-# Hello!
-
-
-
+import nissangtr from './nissangtr.jpg'
 import karooda from './karooda.png'
 
-<img src={karooda} />
+<Image src={nissangtr} >
 
+# Hello!
 
-## Background Image 
+<img src={karooda} size="tiny" style={{
+		width: '25%',
+		height: '60%'
+		}}/>		
+
+</Image>
+
 
 
 
